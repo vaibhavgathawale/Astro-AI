@@ -4,7 +4,7 @@ import com.carrerai.astrology.calculator.AyanamsaCalculator;
 import com.carrerai.astrology.model.Planet;
 import com.carrerai.astrology.model.SiderealBirthChart;
 import com.carrerai.astrology.model.SiderealPlanetPosition;
-import com.carrerai.service.PlanetCalculationService;
+import com.carrerai.astrology.service.PlanetCalculationService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

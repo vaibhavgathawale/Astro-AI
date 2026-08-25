@@ -20,6 +20,8 @@ public class AstroProfileService {
                 .dateOfBirth(request.dateOfBirth())
                 .timeOfBirth(request.timeOfBirth())
                 .placeOfBirth(request.placeOfBirth())
+                .latitude(request.latitude())
+                .longitude(request.longitude())
                 .build();
 
         AstroProfile savedProfile = repository.save(profile);
@@ -34,7 +36,9 @@ public class AstroProfileService {
                 profile.getName(),
                 profile.getDateOfBirth(),
                 profile.getTimeOfBirth(),
-                profile.getPlaceOfBirth()
+                profile.getPlaceOfBirth(),
+                profile.getLatitude(),
+                profile.getLongitude()
         );
     }
 }

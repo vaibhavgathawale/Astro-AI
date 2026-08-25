@@ -18,6 +18,13 @@ public record AstroProfileRequest(
         LocalTime timeOfBirth,
 
         @NotBlank
-        String placeOfBirth
+        String placeOfBirth,
+
+        @NotNull
+        Double latitude,
+
+        @NotNull
+        Double longitude
+
 ) {
 }

@@ -9,6 +9,9 @@ public record AstroProfileResponse(
         String name,
         LocalDate dateOfBirth,
         LocalTime timeOfBirth,
-        String placeOfBirth
+        String placeOfBirth,
+        Double latitude,
+        Double longitude
+
 ) {
 }

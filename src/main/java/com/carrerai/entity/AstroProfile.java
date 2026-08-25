@@ -30,4 +30,10 @@ public class AstroProfile {
 
     @Column(nullable = false)
     private String placeOfBirth;
+
+    @Column(nullable = false)
+    private Double latitude;
+
+    @Column(nullable = false)
+    private Double longitude;
 }

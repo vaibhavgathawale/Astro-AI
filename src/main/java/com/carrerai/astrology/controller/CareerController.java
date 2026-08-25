@@ -2,7 +2,7 @@ package com.carrerai.astrology.controller;
 
 import com.carrerai.astrology.model.CareerPrediction;
 import com.carrerai.astrology.model.CareerRequest;
-import com.carrerai.service.PlanetCalculationService;
+import com.carrerai.astrology.service.PlanetCalculationService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

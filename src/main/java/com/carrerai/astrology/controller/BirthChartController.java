@@ -1,7 +1,7 @@
 package com.carrerai.astrology.controller;
 
 import com.carrerai.astrology.model.*;
-import com.carrerai.service.PlanetCalculationService;
+import com.carrerai.astrology.service.PlanetCalculationService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

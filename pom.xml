@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.carrerai</groupId>
-	<artifactId>Astro-Career-AI</artifactId>
+	<artifactId>Astro-AI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description/>

@@ -1,4 +1,4 @@
-package com.carrerai.service;
+package com.carrerai.astrology.service;
 
 import com.carrerai.astrology.calculator.*;
 import com.carrerai.astrology.model.*;
