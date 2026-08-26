@@ -1,5 +1,6 @@
-package com.astroai.astrology.calculator;
+package com.astroai.career.calculator;
 
+import com.astroai.astrology.calculator.TransitCalculator;
 import com.astroai.astrology.model.JobTimingPrediction;
 import com.astroai.astrology.model.Planet;
 import org.springframework.stereotype.Component;

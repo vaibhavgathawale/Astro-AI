@@ -8,6 +8,7 @@ public record CareerPrediction(
         JobTimingPrediction currentDasha,
         CareerScore careerScore,
         CareerConclusion conclusion,
-        JobOpportunityPrediction jobOpportunity
+        JobOpportunityPrediction jobOpportunity,
+        CareerForecast careerForecast
 ) {
 }

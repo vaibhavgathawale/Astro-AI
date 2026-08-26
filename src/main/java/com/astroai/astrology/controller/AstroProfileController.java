@@ -1,8 +1,8 @@
-package com.astroai.controller;
+package com.astroai.astrology.controller;
 
 import com.astroai.dto.AstroProfileRequest;
 import com.astroai.dto.AstroProfileResponse;
-import com.astroai.service.AstroProfileService;
+import com.astroai.astrology.service.AstroProfileService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

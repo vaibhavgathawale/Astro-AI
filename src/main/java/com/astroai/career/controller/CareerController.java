@@ -1,8 +1,8 @@
-package com.astroai.astrology.controller;
+package com.astroai.career.controller;
 
 import com.astroai.astrology.model.CareerPrediction;
 import com.astroai.astrology.model.CareerRequest;
-import com.astroai.astrology.service.PlanetCalculationService;
+import com.astroai.career.service.PlanetCalculationService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

@@ -1,4 +1,4 @@
-package com.astroai.entity;
+package com.astroai.astrology.model;
 
 import jakarta.persistence.*;
 import lombok.*;

@@ -1,4 +1,4 @@
-package com.astroai.astrology.calculator;
+package com.astroai.career.calculator;
 
 import com.astroai.astrology.model.CareerHouseAnalysis;
 import com.astroai.astrology.model.CareerScore;

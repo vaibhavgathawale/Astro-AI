@@ -1,6 +1,6 @@
-package com.astroai.repository;
+package com.astroai.astrology.repository;
 
-import com.astroai.entity.AstroProfile;
+import com.astroai.astrology.model.AstroProfile;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AstroProfileRepository extends JpaRepository<AstroProfile, Long> {

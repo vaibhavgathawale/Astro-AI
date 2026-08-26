@@ -1,7 +1,10 @@
-package com.astroai.astrology.service;
+package com.astroai.career.service;
 
 import com.astroai.astrology.calculator.*;
 import com.astroai.astrology.model.*;
+import com.astroai.astrology.model.CareerForecast;
+import com.astroai.career.calculator.*;
+import com.astroai.career.calculator.CareerConclusionCalculator;
 import org.springframework.stereotype.Service;
 import swisseph.SweConst;
 
@@ -29,6 +32,7 @@ public class PlanetCalculationService {
     private final PratyantardashaCareerCalculator pratyantardashaCareerCalculator;
     private final CareerConclusionCalculator careerConclusionCalculator;
     private final JobOpportunityCalculator jobOpportunityCalculator;
+    private final CareerForecastCalculator careerForecastCalculator;
 
     
 
@@ -52,7 +56,7 @@ public class PlanetCalculationService {
             CurrentDashaCalculator currentDashaCalculator,
             PratyantardashaCalculator pratyantardashaCalculator,
             PratyantardashaCareerCalculator pratyantardashaCareerCalculator,
-            CareerConclusionCalculator careerConclusionCalculator, JobOpportunityCalculator jobOpportunityCalculator
+            CareerConclusionCalculator careerConclusionCalculator, JobOpportunityCalculator jobOpportunityCalculator, CareerForecastCalculator careerForecastCalculator
 
     ) {
 
@@ -74,6 +78,7 @@ public class PlanetCalculationService {
         this.pratyantardashaCareerCalculator = pratyantardashaCareerCalculator;
         this.careerConclusionCalculator = careerConclusionCalculator;
         this.jobOpportunityCalculator = jobOpportunityCalculator;
+        this.careerForecastCalculator = careerForecastCalculator;
     }
 
 
@@ -1271,6 +1276,16 @@ public class PlanetCalculationService {
                 );
 
 
+// =====================================================
+// 8. Career Forecast
+// =====================================================
+
+        CareerForecast careerForecast =
+                careerForecastCalculator.generateForecast(
+                        allJobTimings
+                );
+
+
         // =====================================================
         // 7. Final Response
         // =====================================================
@@ -1281,7 +1296,8 @@ public class PlanetCalculationService {
                 currentDasha,
                 careerScore,
                 conclusion,
-                jobOpportunity
+                jobOpportunity,
+                careerForecast
         );
     }
 

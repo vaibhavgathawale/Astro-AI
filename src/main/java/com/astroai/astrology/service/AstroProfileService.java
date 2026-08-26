@@ -1,7 +1,7 @@
-package com.astroai.service;
+package com.astroai.astrology.service;
 
-import com.astroai.entity.AstroProfile;
-import com.astroai.repository.AstroProfileRepository;
+import com.astroai.astrology.model.AstroProfile;
+import com.astroai.astrology.repository.AstroProfileRepository;
 import com.astroai.dto.AstroProfileRequest;
 import com.astroai.dto.AstroProfileResponse;
 import lombok.RequiredArgsConstructor;

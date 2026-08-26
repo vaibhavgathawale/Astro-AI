@@ -1,4 +1,4 @@
-package com.astroai.astrology.calculator;
+package com.astroai.career.calculator;
 
 import com.astroai.astrology.model.DashaPeriod;
 import com.astroai.astrology.model.HouseLordPosition;
